@@ -1,7 +1,7 @@
-@import './CCS./header.css';
-@import './CCS./hero.css';
-@import './CCS./presentation.css';
-@import './CCS./project.css';
+@import './CCS/header.css';
+@import './CCS/hero.css';
+@import './CCS/presentation.css';
+@import './CCS/project.css';
 
 
 :root {

@@ -1,0 +1,78 @@
+.footer__presentattion {
+    display: flex;
+    padding: 80px 0px;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+}
+
+.presentation__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.presemtation__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+p {
+    align-self: stretch;
+    color: var(--black, #212121);
+
+    /* web/paragraph-large-regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+h4 {
+    align-self: stretch;
+    color: var(--black, #212121);
+
+    /* web/h4-bold */
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bases {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.base__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.card__bases {
+    display: flex;
+    width: 312px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.card__bases__description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
