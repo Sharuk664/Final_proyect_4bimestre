@@ -2,6 +2,11 @@
 @import './CCS/hero.css';
 @import './CCS/presentation.css';
 @import './CCS/project.css';
+@import './CCS/team.css';
+@import './CCS/stadystic.css';
+@import './CCS/partnes.css';
+@import './CCS/extern.css';
+@import './CCS/footer.css';
 
 
 :root {
@@ -9,7 +14,7 @@
     --black: #212121;
     --purple: #800080;
     --green: #008000;
-    --red: #ff0000;
+    --red: #E63946;
     --gray: #808080;
 }
 
