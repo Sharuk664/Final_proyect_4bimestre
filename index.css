@@ -1,9 +1,12 @@
+@import './CCS./header.css';
 @import './CCS./hero.css';
+@import './CCS./presentation.css';
+@import './CCS./project.css';
 
 
 :root {
     --white: #fff;
-    --black: #000;
+    --black: #212121;
     --purple: #800080;
     --green: #008000;
     --red: #ff0000;
@@ -13,6 +16,37 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    width: 1440px;
+    height: 4923px;
+    padding: 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
 
+.wrapper {
+    display: flex;
+    width: 1408px;
+    height: 4923px;
+    padding: 0px 88px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.header {
+    display: flex;
+    padding: 16px 0px;
+    align-items: center;
+    gap: 97px;
+    align-self: stretch;
+}
+
+li {
+    text-decoration: none;
+}
