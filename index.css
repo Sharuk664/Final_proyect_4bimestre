@@ -26,20 +26,25 @@
 
 body {
     display: flex;
-    width: 1440px;
-    height: 4923px; 
+     
     flex-direction: column;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    
 }
 
 .wrapper {
     max-width: 1408px;
     padding: 16px 88px 0px;
     margin: auto;
+    /*border: 1px solid red;*/
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
     padding: 16px 0px 16px;
     align-items: center;
 }
@@ -81,4 +86,8 @@ h4 {
     font-weight: 700;
     line-height: normal;
     text-align: center;
+}
+
+img {
+    width: 100px;
 }
