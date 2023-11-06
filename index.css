@@ -1,7 +1,7 @@
 @import './CCS/header.css';
 @import './CCS/hero.css';
 @import './CCS/presentation.css';
-@import './CCS/project.css';
+@import './CCS/projects.css';
 @import './CCS/team.css';
 @import './CCS/stadystic.css';
 @import './CCS/partnes.css';
@@ -20,38 +20,65 @@
 
 * {
     margin: 0;
-    padding: auto;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     display: flex;
     width: 1440px;
-    height: 4923px;
-    padding: 0px 16px;
+    height: 4923px; 
     flex-direction: column;
-    align-items: flex-start;
-    flex-shrink: 0;
 }
 
 .wrapper {
-    display: flex;
-    width: 1408px;
-    height: 4923px;
-    padding: 0px 88px;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-shrink: 0;
+    max-width: 1408px;
+    padding: 16px 88px 0px;
+    margin: auto;
 }
 
 .header {
     display: flex;
-    padding: 16px 0px;
+    justify-content: space-between;
+    padding: 16px 0px 16px;
     align-items: center;
-    gap: 97px;
-    align-self: stretch;
 }
 
-li {
+ul, li, a {
     text-decoration: none;
+    color: var(--black);
+
+}
+
+.chaos {
+    color: var(--white);
+}
+
+a {
+    text-align: center;
+}
+
+p {
+    align-self: stretch;
+    color: var(--black, #212121);
+    text-align: center;
+    /* web/paragraph-large-regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+h4 {
+    align-self: stretch;
+    color: var(--black, #212121);
+
+    /* web/h4-bold */
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
 }

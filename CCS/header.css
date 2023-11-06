@@ -1,4 +1,6 @@
 .logo {
+    display: flex;    
+    justify-content: space-between;
     color: var(--black, #212121);
 
     /* web/h2-bold */
@@ -10,8 +12,7 @@
 }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
     align-items: center;
     flex: 1 0 0;
     align-self: stretch;

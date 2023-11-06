@@ -27,9 +27,11 @@
 
 .button__secondary {
     display: flex;
-    padding: 8px 16px;
+    padding: 16px;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    color: var(--white);
+    text-decoration: none;
     background: var(--blue, #1D3557);
 }
