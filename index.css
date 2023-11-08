@@ -51,6 +51,7 @@ body {
 ul, li, a {
     text-decoration: none;
     color: var(--black);
+    list-style: none;
 
 }
 
@@ -90,3 +91,5 @@ h4 {
 img {
     width: 100px;
 }
+
+
