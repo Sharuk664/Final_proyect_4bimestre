@@ -1,7 +1,7 @@
 .logo {
     display: flex;    
     color: var(--black, #212121);
-
+    
     /* web/h2-bold */
     font-family: Poppins;
     font-size: 39.06px;
@@ -12,10 +12,10 @@
 
 .menu {
     display: flex; 
+    justify-content: space-around;
     align-items: center;
     flex: 1 0 0;
     align-self: stretch;
-    justify-content: space-around;
 }
 
 .item__menu {
